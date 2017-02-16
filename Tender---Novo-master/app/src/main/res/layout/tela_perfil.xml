@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.didasko.eduardo.tender.TelaPerfil">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?android:attr/colorFocusedHighlight"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:minHeight="112dp" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/triangulado_laranja"
+        android:id="@+id/backtoolbar"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false" />
+
+    <include layout="@layout/content_tela_perfil"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:visibility="visible"
+        android:id="@+id/include2" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Chefs</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="facebook_app_id">"582827805261713"</string>
+
+    <string name="action_settings">Configuração</string>
+    <string name="entrada">Categorias</string>
+    <string name="massa">Massa</string>
+    <string name="salada">Salada</string>
+    <string name="bebida">Drink</string>
+    <string name="likedRecipes">Receitas que eu Curti</string>
+    <string name="myRecipes">Minhas Receitas</string>
+    <string name="camera">Câmera</string>
+    <string name="galeria">Galeria</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="slcOpcao">Selecione uma opção</string>
+    <string name="vegan">Vegan</string>
+    <string name="doce">Doce</string>
+    <string name="title_activity_tela_perfil">Perfil</string>
+    <string name="action_perfil">Perfil</string>
+    <string name="title_activity_perfil">perfil</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_teste">Teste</string>
+    <string name="Categorias"/>
+    <string name="categorias"/>
+    <string-array name="livro_receitas">
+        <item>Categorias</item>
+        <item>Salada</item>
+        <item>Drink</item>
+        <item>Massa</item>
+        <item>Doce</item>
+        <item>Vegan</item>
+        <item>Aperitivos</item>
+    </string-array>
+
+</resources>

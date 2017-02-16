@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.didasko.eduardo.tender.MinhasReceitas">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="1200dp">
+
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barrabar"
+                android:id="@+id/barraBar"
+                android:adjustViewBounds="true" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Receitas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="110dp"
+                    android:textSize="36sp"
+                    android:fontFamily="cursive"
+                    android:textAlignment="center"
+                    android:textColor="@color/laranjachefs"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/botaoBack"
+                    android:background="@drawable/perfil1"
+                    android:layout_width="67dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="62dp" />
+
+                <TextView
+                    android:text="Publicadas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginLeft="150dp"
+                    android:textSize="36sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="normal|bold"
+                    android:textColor="@color/laranjachefs" />
+
+                <Button
+                    android:layout_below="@+id/botaoBack"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:id="@+id/botaoBack1"
+                    android:layout_alignRight="@+id/botaoBack"
+                    android:layout_alignEnd="@+id/botaoBack"
+                    android:background="@drawable/home_pw"
+                    android:freezesText="false"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"/>
+
+                <SearchView
+                    android:layout_width="400px"
+                    android:layout_height="50px"
+                    android:background="@drawable/barrabar"
+                    android:elevation="500dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="160dp"/>
+
+            </FrameLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+

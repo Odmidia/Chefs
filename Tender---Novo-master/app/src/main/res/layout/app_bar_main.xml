@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.didasko.eduardo.tender.MainActivity">
+
+    <include layout="@layout/content_main"
+             android:id="@+id/include"
+             android:layout_height="wrap_content"
+             android:layout_width="385dp" />
+
+    <Button
+        android:id="@+id/buttonReceita"
+        android:background="@drawable/card_pw"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="top|right"
+        android:elevation="0dp"
+        android:allowUndo="true"
+        android:layout_height="59dp"
+        android:layout_gravity="end"
+        android:layout_width="55dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barrabar"
+        android:id="@+id/barraBar"
+        android:adjustViewBounds="true" />
+
+    <Spinner
+        android:id="@+id/spCategorias"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/spinner_background"
+        android:layout_width="185dp"
+        android:contextClickable="false"
+        android:layout_height="38dp"/>
+
+    <Button
+        android:id="@+id/buttonPerfil"
+        android:contextClickable="false"
+        android:background="@drawable/perfil1"
+        app:layout_anchorGravity="top|left"
+        android:gravity="start"
+        android:elevation="0dp"
+        app:layout_anchor="@+id/include"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="87dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:text="Chefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:layout_gravity="top|center_vertical"
+        android:layout_marginTop="15dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="cursive"
+        android:textAllCaps="false"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

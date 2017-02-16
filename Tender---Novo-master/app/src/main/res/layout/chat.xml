@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.didasko.eduardo.tender.Chat"
+    android:background="?android:attr/colorAccent">
+
+    <TextView
+        android:text="Receita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receitaChat"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:elevation="24dp" />
+
+    <Button
+        android:src="@drawable/send"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/send"
+        android:id="@+id/btnSend" />
+
+    <Button
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/botaoHome"
+        android:background="@drawable/hom_rw"
+        android:elevation="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="95px"
+        android:layout_height="95px"
+        android:id="@+id/irReceita"
+        android:background="@drawable/card_rw"
+        android:elevation="24dp"
+        android:layout_alignTop="@+id/receitaChat"
+        android:layout_alignRight="@+id/fundoChat"
+        android:layout_alignEnd="@+id/fundoChat"
+        android:layout_marginLeft="300dp" />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:hint="Enter a Message"
+        android:layout_height="wrap_content"
+        android:elevation="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/enterText"
+        android:layout_toLeftOf="@+id/btnSend"
+        android:layout_toStartOf="@+id/btnSend" />
+
+
+</RelativeLayout>

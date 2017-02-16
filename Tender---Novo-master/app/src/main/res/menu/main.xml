@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+                    android:id="@+id/salada"
+                    android:checkable="true"
+                    android:title="@string/salada"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/drinks"
+                    android:checkable="true"
+                    android:title="@string/bebida"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/massa"
+                    android:checkable="true"
+                    android:title="@string/massa"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/entrada"
+                    android:checkable="true"
+                    android:title="@string/entrada"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/doce"
+                    android:checkable="true"
+                    android:title="@string/doce"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/vegan"
+                    android:checkable="true"
+                    android:title="@string/vegan"
+                    app:showAsAction="never"/>
+
+</menu>
